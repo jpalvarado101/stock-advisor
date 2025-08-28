@@ -1,0 +1,21 @@
+name: trillion-gbm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - yfinance
+  - sqlalchemy
+  - psycopg2
+  - alembic
+  - fastapi
+  - uvicorn
+  - pydantic
+  - streamlit
+  - scikit-learn
+  - pytorch
+  - pip
+  - pip:
+      - torch # ensures latest torch wheel via pip if conda lags
